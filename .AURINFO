@@ -1,0 +1,18 @@
+pkgbase = cbootimage-git
+	pkgdesc = Tools to dump and generate boot config table on Tegra devices
+	pkgver = 1.4
+	pkgrel = 2
+	url = http://nv-tegra.nvidia.com/gitweb/?p=tools/cbootimage.git;a=summary
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = GPL
+	makedepends = git
+	makedepends = automake
+	makedepends = autoconf
+	provides = cbootimage=1.4
+	conflicts = cbootimage
+	source = git://github.com/NVIDIA/cbootimage.git
+
+pkgname = cbootimage-git
+
